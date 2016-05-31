@@ -105,10 +105,25 @@ public class Test {
 //            System.out.println(Benutzer.getAlleBenutzer());
 
 
-            Benutzer user = new Benutzer("test", "test", "v", "n");
-            System.out.println(user.toString());
-            System.out.println(Benutzer.loginCheck(user));
+//            Benutzer user = new Benutzer("test", "test", "v", "n");
+//            System.out.println(user.toString());
+//            System.out.println(Benutzer.loginCheck(user));
+
+
+
+//            Benutzer2LernKarte b2lk= new Benutzer2LernKarte(2, 3);
+//            System.out.println(Benutzer2LernKarte.checkWiedervorlage(b2lk));
          
+        Benutzer user = new Benutzer(103, "test", "test", "v", "n");
+        LernKarte lK = new LernKarte(1, "frage", 0);
+        Benutzer2LernKarte.delete(user, lK);
+
+
+
+
+
+
+
 
             
     }
